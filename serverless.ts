@@ -29,7 +29,8 @@ const serverlessConfiguration: AWS = {
               'dynamodb:PutItem',
               'dynamodb:UpdateItem',
               'dynamodb:DescribeTable',
-              'dynamodb:DeleteItem'
+              'dynamodb:DeleteItem',
+              'dynamodb:Scan',
             ],
             Resource: '*'
           }
